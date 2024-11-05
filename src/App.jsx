@@ -5,6 +5,7 @@ import SimpleForm from './components/simple_form/SimpleForm'
 import Stateform from './components/stateform/Stateform'
 import RefForm from './components/ref-FORM/Ref_form'
 import Reusable_form from './components/Reusable form/Reusable_form'
+import Grandpa from './Connected_Component/Grandpa/Grandpa'
 
 function App() {
   const handleSignUpSubmit = data =>{
@@ -55,6 +56,16 @@ function App() {
             <h5> Always keep your profile updated......</h5>
           </div>
       </Reusable_form>
+
+
+
+      <hr/>
+      <br/>
+      <br/>
+      <br/>
+
+      <h2>Connction components....</h2>
+      <Grandpa />
     </div>
   )
 }
